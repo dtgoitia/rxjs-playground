@@ -1,0 +1,4 @@
+image: node:11.15.0-alpine
+tasks:
+  - init: npm ci
+    command: npm run test-watch
