@@ -1,0 +1,20 @@
+{
+  "verbose": true,
+  "quiet": true,
+  "ignore": [
+    ".git",
+    "node_modules/*"
+  ],
+  "watch": [
+    "src/",
+    "spec/support/jasmine.json",
+    "tsconfig.json",
+    "tslint.json"
+  ],
+  "events": {
+    "start": "clear",
+    "restart": "clear"
+  },
+  "ext": "ts",
+  "exec": "jasmine-ts"
+}
